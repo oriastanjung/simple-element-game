@@ -1,0 +1,36 @@
+body {
+  background: url("./background-body.jpg");
+}
+.text {
+  background-color: black;
+  opacity: 75%;
+  text-align: center;
+  color: white;
+}
+#pilihanPlayer img {
+  width: 20%;
+}
+
+#pilihanMusuh img {
+  width: 20%;
+}
+.styleDivCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styleDivCenter button {
+  margin-top: 4em;
+  background-color: green;
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+  padding: 2em 5em;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+#result{
+  color: red !important;
+}
